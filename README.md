@@ -8,10 +8,13 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Standardize data and add bias column to features.
+
+2.Initialize weights 𝜃=0.
+
+3.Repeat: predict h(X)=Xθ, compute error, and update θ=θ−α⋅1/m.X^T.(h(X)−y).
+
+4.Use final 𝜃 to predict new data and inverse-transform result. 
 
 ## Program:
 ```
