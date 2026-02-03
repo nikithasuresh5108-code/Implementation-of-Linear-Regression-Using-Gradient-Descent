@@ -24,6 +24,7 @@ Developed by:nagalakshmi
 RegisterNumber: 25003017
 */
 ```
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -40,8 +41,7 @@ b = 0.0
 alpha = 0.01
 epochs = 100
 n = len(x)
-
-losses=[]
+ losses=[]
 for _ in range(epochs):
     y_hat = w* x + b
     loss = np.mean((y_hat - y) ** 2)
