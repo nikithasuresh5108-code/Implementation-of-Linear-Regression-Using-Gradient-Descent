@@ -24,12 +24,6 @@ Developed by:nagalakshmi
 RegisterNumber: 25003017
 */
 ```
-/*
-Program to implement the linear regression using gradient descent.
-Developed by:B.C.PRAVALIKA
-RegisterNumber:25018550  
-*/
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
